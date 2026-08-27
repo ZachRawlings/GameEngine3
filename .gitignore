@@ -1,0 +1,67 @@
+# -------------------------
+# Unreal Engine Git Ignore
+# Clean, safe defaults
+# -------------------------
+
+# Build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+
+# Project user settings
+*.user
+*.userprefs
+*.log
+*.tlog
+*.tmp
+*.cache
+*.obj
+
+# Auto-generated project files
+*.pri
+*.pdb
+*.ipdb
+*.iobj
+
+# Unreal auto-generated config
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Ignore local plugins' build artifacts
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore platform-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore crash reports
+Saved/Logs/
+Saved/Crashes/
+
+# Ignore autosaves and backups
+Saved/Autosaves/
+Saved/Backup/
+
+# Ignore derived shader data
+DerivedDataCache/
+
+# Ignore generated project files
+*.vs/
+.vscode/
+
+# Ignore Rider/CLion/JetBrains IDE files
+.idea/
+
+# Ignore LFS pointer corruption backups
+*.lfsconfig-backup
